@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RP/Travel/94 - Contato</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">RP/Travel/94</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-blue-600">Início</a>
+        <a href="destinos.html" class="hover:text-blue-600">Destinos</a>
+        <a href="sobre.html" class="hover:text-blue-600">Sobre</a>
+        <a href="contato.html" class="text-blue-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-2xl mx-auto py-12 px-4">
+    <h2 class="text-3xl font-bold mb-6 text-center">Fale Conosco</h2>
+    <form action="https://formspree.io/f/mwkgyqdq" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2">Nome</label>
+        <input type="text" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+        <input type="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" required>
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2">Mensagem</label>
+        <textarea name="mensagem" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" required></textarea>
+      </div>
+      <div class="flex items-center justify-between">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="bg-white py-6 text-center text-gray-600 border-t">
+    <p>&copy; 2025 RP/Travel/94. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
